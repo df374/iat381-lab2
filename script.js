@@ -34,17 +34,17 @@ newApp.config(function($routeProvider) {
 // create the controller and inject Angular's $scope
 newApp.controller('mainController', function($scope) {
 
-  $scope.message = 'Welcome';
+  $scope.message = '';
 });
 
 newApp.controller('aboutController', function($scope) {
-  $scope.message = 'Not this time';
+  $scope.message = '';
 });
 
 newApp.controller('contactController', function($scope) {
-  $scope.message = 'Unavailable';
+  $scope.message = '';
 });
 
 newApp.controller('extraController', function($scope) {
-  $scope.message = 'Blank';
+  $scope.message = '';
 });
